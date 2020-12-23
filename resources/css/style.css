@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: nunitoExtraLight;
+    src: url(../fonts/nunito/Nunito-ExtraLight.ttf);
+}
+@font-face {
+    font-family: nunitoBold;
+    src: url(../fonts/nunito/Nunito-Bold.ttf);
+}
+@font-face{
+    font-family: nunitoExtraBold;
+    src: url(../fonts/nunito/Nunito-ExtraBold.ttf);
+}
+@font-face{
+    font-family: abrilFatFace;
+    src: url(../fonts/abrilFatFace/AbrilFatface-Regular.ttf);
+}
+@font-face{
+    font-family: robotoLight;
+    src: url(../fonts/Roboto/RobotoCondensed-Light.ttf);
+}
+@font-face{
+    font-family: robotoRegular;
+    src: url(../fonts/Roboto/RobotoCondensed-Regular.ttf);
+}
+/*like boostrap*/
+.w-80{
+    width: 80%;
+}
+.w-70{
+    width: 70%;
+}
+.m-auto{
+    margin: auto;
+}
+.img-sm{
+    width: 2rem;
+}
+/*...............*/
+.inline-flex{
+    display: inline-flex;
+}
+header{
+    text-align: center;
+}
+navbar ul{
+    display: inline-flex;
+    list-style: none;
+    width: 90%;
+    vertical-align: middle;
+    height: 5rem;
+}
+navbar ul li{
+    margin: auto;
+    vertical-align: middle;
+}
+navbar ul a{
+    color: black;
+    text-decoration: none;
+    margin: auto;
+    font-family: nunitoExtraLight;
+}
+navbar ul a:hover{
+    background-color: black;
+    color: burlywood;
+    border-radius: 10px;
+    padding: 1rem;
+}
+.sweet-home{
+    overflow: hidden;
+}
+.sweet-home div img{
+    width: 100%;
+    height: 37rem;
+}
+.tableIndex{
+    background-color:rgb(255 251 251 / 60%);
+    position: absolute;
+    z-index: 5;
+    /* left: 25%;
+    right: 25%;*/
+    top: 33%; 
+    margin: 0 20%;
+}
+.tableIndex table{
+    padding: 4rem 8rem;
+    opacity: 1;
+    border: 1px black solid;
+}
+.tableIndex table td{
+    border-bottom: 1px black solid;
+    width: 8rem;
+    height: 8rem;
+    text-align: center;
+    font-family: 'nunitoBold';
+    font-size: 1.5rem;
+}
+.tableIndex table th{
+    background: white;
+}
+.tableIndex table td:hover{
+    background-color: black;
+    color: burlywood;
+}
+.tableIndex table th, .tableIndex table tr{
+    border: 1px black solid;
+}
+.tableIndex table .titleTable{
+    font-family: 'abrilFatFace';
+    font-size: 2rem;
+    color: black;
+    text-transform: uppercase;
+}
+article{
+    margin: 0px 15%;
+}
+article h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: 'abrilFatFace';
+    margin: 2rem 0rem;
+}
+article img{
+    width: 80%;
+    height: 60%;
+    margin: 1rem;
+}
+.textRecommended{
+    width: 80%;
+    margin: auto;
+}
+h2.texto-corto{
+    margin: 1rem 0rem;
+}
+.containerRecommended{
+    justify-content: center;
+}
+.containerRecommended div{
+    text-align: center;
+}
+.containerRecommended h2{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'robotoRegular';
+    width: 100%;
+    height: auto;
+    font-weight: 100;
+}
+.containerRecommended p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'robotoLight';
+    margin: 0rem 1rem;
+}
+footer{
+    text-align: center;
+    background: #484645;
+}
+footer div{
+    margin: 1rem 4rem;
+    display: inline-flex;
+}
+footer div div{
+    align-items: center;
+    margin: auto;
+}
+footer div div p{
+    margin: 2rem;
+    font-family: 'nunitoExtraLight';
+}
