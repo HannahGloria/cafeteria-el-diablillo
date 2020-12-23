@@ -23,3 +23,19 @@
 .infoAbout{
     position: absolute;
 }
+@media (max-width: 480px){
+    section{
+        margin-top: 10%;
+    }
+    .backgroundNosotros img{
+        height: 10rem;
+    }
+    .backgroundNosotros p{
+        padding: 1rem 1rem;
+        font-size: 0.8rem;
+        top: 40%;
+    }
+    .bgSeccion2{
+        margin-top: -2%;
+    }
+}

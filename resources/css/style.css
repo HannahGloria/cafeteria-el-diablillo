@@ -45,6 +45,9 @@
 .text-white{
     color: white;
 }
+.productRecommended{
+    width: 32.26%; 
+}
 /*...............*/
 .inline-flex{
     display: inline-flex;
@@ -86,10 +89,11 @@ navbar ul a:hover{
     background-color:rgb(255 251 251 / 60%);
     position: absolute;
     z-index: 5;
-    /* left: 25%;
-    right: 25%;*/
-    top: 33%; 
-    margin: 0 25%;
+    /* top: 33%;  */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
 }
 .tableIndex table{
     padding: 4rem 8rem;
@@ -122,6 +126,7 @@ navbar ul a:hover{
 }
 article{
     margin: 0px 15%;
+    width: 70%;
 }
 article h1{
     text-align: center;
@@ -143,6 +148,7 @@ h2.texto-corto{
 }
 .containerRecommended{
     justify-content: center;
+    display: inline-flex;
 }
 .containerRecommended div{
     text-align: center;
@@ -176,4 +182,53 @@ footer div div{
 footer div div p{
     margin: 2rem;
     font-family: 'nunitoExtraLight';
+}
+@media (max-width: 425px){
+    navbar ul a{
+        font-size: 0.6rem;
+    }
+    .sweet-home div img{
+        width: auto;
+        height: 20rem;
+    }
+    .tableIndex{
+        padding: 0rem 0rem;
+        top: 43%;
+    }
+    .tableIndex table{
+        padding: 1rem 2rem;
+    }
+    .tableIndex table .titleTable{
+        font-size: 1.8rem;
+    }
+    .tableIndex table td{
+        height: 5rem;
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
+    article{
+        width: 100%!important;
+    }
+    article h1{
+        font-size: 1.8rem;
+    }
+    article img{
+        width: 80%;
+        height: 20rem;
+        margin: 1rem;
+    }
+    .containerRecommended{
+        display: block;
+    }
+    .productRecommended{
+        width: 100%;
+    }
+    footer div div p{
+        margin: 0;
+        font-size: 0.9rem;
+    }
+    footer{
+        margin-top: 15%;
+        padding: 1rem;
+    }
 }
