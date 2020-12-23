@@ -33,11 +33,17 @@
 .w-70{
     width: 70%;
 }
+.w-50{
+    width: 50%;
+}
 .m-auto{
     margin: auto;
 }
 .img-sm{
     width: 2rem;
+}
+.text-white{
+    color: white;
 }
 /*...............*/
 .inline-flex{
@@ -83,7 +89,7 @@ navbar ul a:hover{
     /* left: 25%;
     right: 25%;*/
     top: 33%; 
-    margin: 0 20%;
+    margin: 0 25%;
 }
 .tableIndex table{
     padding: 4rem 8rem;
@@ -160,7 +166,7 @@ footer{
     background: #484645;
 }
 footer div{
-    margin: 1rem 4rem;
+    /* margin: 1rem 4rem; */
     display: inline-flex;
 }
 footer div div{

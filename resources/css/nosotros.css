@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+.backgroundNosotros p{
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'robotoRegular';
+    background: #ffffffba;;
+    border: solid 2px black;
+    padding: 5rem 3rem;
+}
+.backgroundNosotros img{
+    width: 100%;
+    height: 20rem;
+}
+.bgSeccion2{
+    margin-top: -1%;
+}
+.infoAbout{
+    position: absolute;
+}
