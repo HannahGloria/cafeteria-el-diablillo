@@ -1,0 +1,47 @@
+.carousel-inner{
+    height: 100vh!important;
+}
+.slideBebidasCalientes .slide{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.containerBebidasBanner div {
+    position: absolute;
+    z-index: 5;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+.containerBebidasBanner .icono{
+    position: absolute;
+    z-index: 5;
+    top: 55%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+.containerBebidasBanner button{
+    position: absolute;
+    z-index: 5;
+    top: 68%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+.containerBebidasBanner div h1.titleBebidas{
+    font-family: 'abrilFatFace';
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+button.buttonbtn  {
+    width: 12rem;
+    height: 4rem;
+    text-align: center;
+    font-family: 'nunitoBold';
+    font-size: 1rem;
+    border-radius: 10px;
+    background: white;
+    color: #979595;
+    border: none;
+}
