@@ -62,3 +62,6 @@ button.buttonbtn  {
     font-size: 1rem;
     font-family: 'robotoLight';
 }
+article img {
+    width: 85%;
+}

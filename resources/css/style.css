@@ -64,7 +64,8 @@ navbar ul{
     list-style: none;
     width: 90%;
     vertical-align: middle;
-    height: 5rem;
+    height: 4rem;
+    margin: auto;
 }
 navbar ul li{
     margin: auto;
